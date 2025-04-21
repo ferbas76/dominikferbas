@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dominik Ferbas – Účetnictví & Finanční poradenství</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #007BFF;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      background-color: #ffffff;
+      margin-top: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 8px;
+    }
+    img.portrait {
+      max-width: 200px;
+      border-radius: 10px;
+      margin-right: 2rem;
+    }
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    form {
+      margin-top: 2rem;
+    }
+    input, button {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">O mně</a>
+      <a href="#investice">Investování</a>
+      <a href="#pojisteni">Pojištění</a>
+      <a href="#spoluprace">Spolupráce</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="about">
+      <img src="DSCF2244.jpg" alt="Dominik Ferbas" class="portrait">
+      <div>
+        <h2>Dominik Ferbas</h2>
+        <p>Účetnictví & Finanční poradenství</p>
+        <p>Telefon: 720 614 845</p>
+        <p>Email: dominik.ferbas@prosperityfs.cz</p>
+        <p>Spolupracuji pod hlavičkou <strong>Prosperity FS</strong>, kde se věnuji komplexnímu finančnímu poradenství a účetnictví.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="investice">
+    <h2>Investování</h2>
+    <p>Investování je klíčem k finanční stabilitě a budoucnosti. Peníze ztrácejí hodnotu inflací a spořicí účet už často nestačí. Pomáhám klientům tvořit rezervy, investovat chytře a budovat finanční jistotu.</p>
+    <p>Společně nastavíme plán, který bude dávat smysl vašim cílům a životní situaci.</p>
+  </section>
+
+  <section id="pojisteni">
+    <h2>Pojištění</h2>
+    <p>Nečekané události mohou otřást vaším životem i financemi. Správně nastavené životní i majetkové pojištění vám dá klid a jistotu, že v krizových chvílích nebudete sami.</p>
+    <p>Probereme spolu, co má smysl pojistit, a jak získat maximum za férovou cenu.</p>
+  </section>
+
+  <section id="spoluprace">
+    <h2>Spolupráce</h2>
+    <p>Hledáte partnera, kterému můžete důvěřovat? Jsem tu pro vás – ať už chcete řešit investice, pojištění, nebo účetnictví. Nabízím nezávaznou úvodní schůzku, kde probereme vaše potřeby a cíle.</p>
+    <p>Nechte mi na sebe kontakt – ozvu se vám co nejdříve.</p>
+
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Vaše jméno" required>
+      <input type="tel" name="phone" placeholder="Telefonní číslo" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <button type="submit">Odeslat</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Dominik Ferbas – Všechna práva vyhrazena
+  </footer>
+</body>
+</html>
