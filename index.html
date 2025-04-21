@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dominik Ferbas – Účetnictví & Finanční poradenství</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #2d2d2d;
+      line-height: 1.7;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #2d2d2d;
+      font-weight: 600;
+      font-size: 1.1rem;
+      position: relative;
+    }
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background-color: #007BFF;
+      bottom: -5px;
+      left: 0;
+      transition: width 0.3s ease-in-out;
+    }
+    nav a:hover::after {
+      width: 100%;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 960px;
+      margin: 3rem auto;
+      background-color: #ffffff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.03);
+      border-radius: 10px;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #1a1a1a;
+    }
+    img.portrait {
+      max-width: 240px;
+      border-radius: 12px;
+      margin-right: 2rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+    form {
+      margin-top: 2.5rem;
+    }
+    input, button {
+      width: 100%;
+      padding: 1rem;
+      margin: 0.6rem 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: all 0.2s ease-in-out;
+    }
+    input:focus {
+      border-color: #007BFF;
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      font-weight: 600;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">O mně</a>
+      <a href="#investice">Investování</a>
+      <a href="#pojisteni">Pojištění</a>
+      <a href="#spoluprace">Spolupráce</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="about">
+      <img src="DSCF2244.jpg" alt="Dominik Ferbas" class="portrait">
+      <div>
+        <h2>Dominik Ferbas</h2>
+        <p>Účetnictví & Finanční poradenství</p>
+        <p><strong>Telefon:</strong> 720 614 845<br>
+           <strong>Email:</strong> dominik.ferbas@prosperityfs.cz</p>
+        <p>Spolupracuji pod hlavičkou <strong>Prosperity FS</strong>, kde se věnuji komplexnímu finančnímu poradenství a účetnictví.</p>
+        <p>Od tří let jsem hrál hokej a věnoval se mu až do svých 21 let, přičemž poslední tři roky jsem působil na profesionální úrovni. Po ukončení sportovní kariéry jsem se začal naplno věnovat účetnictví v naší rodinné firmě, která má za sebou více než 30 let zkušeností. Tady jsem získal pevné základy v oblasti čísel, systému a odpovědnosti za klienty.</p>
+        <p>Postupně jsem chtěl jít ještě dál a začal jsem vnímat potřebu klientům pomoci komplexně – nejen s účetnictvím, ale i s finančním plánováním. Proto jsem se pustil do finančního poradenství, abych mohl s jistotou říct, že naši klienti mají vše správně a kvalitně nastavené – od daní až po investice či pojištění.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
